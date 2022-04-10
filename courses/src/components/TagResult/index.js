@@ -44,7 +44,7 @@ const TagResult = () => {
                     <button className='btn'>1313</button>
                 </div>
 
-                <Link to="/Recommendation" style={{ textDecoration: 'none' }}>
+                <Link className="link" to="/Recommendation" style={{ textDecoration: 'none' }}>
                     <button className='btn2'>Complete</button>
                 </Link>
             </div> 

@@ -12,7 +12,7 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <video src='/video/video.mp4' autoPlay loop muted />
-      <h1>ADVENTURE AWAITS</h1>
+      <h1>Tag My Course</h1>
       <p>What are you waiting for?</p>
       <div className='hero-btns'>
         <StartLink to="/TagSelect" style={{ textDecoration: 'none' }}>

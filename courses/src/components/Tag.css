@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    font: 12px/1.5 'PT Sans', serif;
+    margin: 25px;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+.TagContainer {
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tags {
+    list-style: none;
+    overflow: hidden; 
+    padding: 0;
+}
+
+.tags li {
+    margin-top: 130px;
+    float: left;
+}
+
+.tag1 {
+    margin: 30px;
+    padding: 30px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 30px;
+    border-radius: 20px;
+    visibility: visible;
+    background-color: white;
+}
+
+.tag1:hover{
+    padding: 35px 75px;
+}

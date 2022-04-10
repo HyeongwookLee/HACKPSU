@@ -48,14 +48,14 @@ export const TagContainer = styled.div`
     display: flex;  
     height: 70%;
     justify-content: center;
+    flex-direction: column;
 `;
 
 export const DoneLink = styled(Link)`
-
-    margin-top: auto;
     display: flex;
     justify-content: center;
     width: 100%;
+    margin-top: 200px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
@@ -64,6 +64,7 @@ export const DoneLink = styled(Link)`
 
 export const DoneButton = styled.button`
     display: flex;
+    
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 2%;
@@ -73,7 +74,6 @@ export const DoneButton = styled.button`
     border-radius: 20px;
     background-color: white;
     box-shadow: 2px 2px gray;
-    margin-top: 30%;
     cursor: pointer;
     font-size: 20px;
 `

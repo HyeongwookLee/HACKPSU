@@ -9,6 +9,7 @@ import {
     DoneLink,
     TagContainer,
 } from "./styles";
+import Tag from "../Tag"
 
 const TagLayer = () => {
     return(
@@ -17,14 +18,10 @@ const TagLayer = () => {
                 <Header>
                     Select at least 5 that interests you
                 </Header>
-                <SearchContainer>
-                    <Search placeholder="Search tag">
-                    
-                    </Search>
-                </SearchContainer>
             </BackGround>
             <TagContainer>
-                <DoneLink to="/Recommendation" style={{ textDecoration: 'none' }}>
+                <Tag />
+                <DoneLink to="/TagResult" style={{ textDecoration: 'none' }}>
                     <DoneButton>Done!</DoneButton>
                 </DoneLink>
             </TagContainer>

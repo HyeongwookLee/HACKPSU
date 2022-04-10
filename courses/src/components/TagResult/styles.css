@@ -20,7 +20,7 @@
     margin-top: 10%;
     font-family: Fira Sans;
     font-size: 30px;
-    color: black;
+    color: white;
     margin-bottom: 50px;
 }
 
@@ -55,7 +55,25 @@
     margin: 20px;
 }
 
+.link {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+}
+
 .btn2{
-    margin-top: 50px;
-    padding: 30px 20px;
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 2px 2px gray;
+    cursor: pointer;
+    font-size: 20px;
 }
