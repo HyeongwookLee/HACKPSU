@@ -1,9 +1,9 @@
 import React from 'react';
-import Recommend from "../components/Recommend/index";
+import Recommended from "../components/RecommendPage";
 
 const Recommendation = ({match}) => {
     return (
-        <Recommend />
+        <Recommended />
     );
 };
 

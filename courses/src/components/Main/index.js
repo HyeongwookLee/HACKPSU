@@ -1,26 +1,11 @@
 import React from 'react';
-
-import {
-    Container,
-    BackGround,
-    Title,
-    StartContainer,
-    StartLink,
-    Start,
-} from "./styles";
+import HeroSection from '../HeroSection';
 
 const Main = () => {
     return(
-        <Container>
-            <BackGround>
-                <Title>The Perfect Course for You</Title>
-            </BackGround>
-            <StartContainer>
-                <StartLink to="/TagSelect" style={{ textDecoration: 'none' }}>
-                    <Start>Get Started</Start>
-                </StartLink>
-            </StartContainer>
-        </Container>
+        <div>
+        <HeroSection/>
+        </div>
     );
 };
 export default Main;
